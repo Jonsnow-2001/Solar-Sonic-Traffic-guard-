@@ -8,7 +8,7 @@ void setup() {
   Serial.begin(9600);
   Serial.println("hii");
   connectWiFi();
-}
+} 
 
 void loop() {
   if (WiFi.status() == WL_CONNECTED) {
